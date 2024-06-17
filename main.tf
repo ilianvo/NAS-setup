@@ -18,7 +18,7 @@ depends_on = [null_resource.docker]
   }
 }
 
-resource "null_resource" "dockpit" {
+resource "null_resource" "cockpit" {
 depends_on = [null_resource.cosmos-cloud]
 
   provisioner "local-exec" {
