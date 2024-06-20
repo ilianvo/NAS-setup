@@ -1,5 +1,5 @@
 # NAS-setup
-This is my automating solution for my NAS.
+This is my automated solution for my NAS.
 I use cosmos-server as manager of my NAS and Cockpit for managing RAID and partitions.
 
 # How to deploy
