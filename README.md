@@ -15,8 +15,9 @@ sudo apt update install terraform
 git clone  https://github.com/ilianvo/NAS-setup
 ```
 
-3.Initialize and run terraform
-``` cd NAS-setup
+3.Initialize and run terraform:
+```
+cd NAS-setup
 terraform init 
 terraform plan
 terraform apply -auto-approve
