@@ -8,7 +8,7 @@ I use cosmos-server as manager of my NAS and Cockpit for managing RAID and parti
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt update
-sudo apt update install terraform
+sudo apt install terraform
  ```
 2. Clone my repository:
 ```
